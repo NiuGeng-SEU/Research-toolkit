@@ -3,7 +3,7 @@ import pandas as pd
 
 # Configuration parameters
 current_dir = os.path.dirname(os.path.abspath(__file__))
-folder_path = current_dir
+folder_path = os.path.join(current_dir, "Raw")
 excel_path = os.path.join(current_dir, "Core Image Rename.xlsx")
 
 # Read Excel file
